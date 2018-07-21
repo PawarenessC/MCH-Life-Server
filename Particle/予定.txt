@@ -1,0 +1,43 @@
+/pte <番号> <名前>
+
+番号 -> 0~5
+
+0 -> パーティクル削除
+1 -> DustParticle
+2 -> ExplodeParticle
+3 -> PortalParticle
+4 -> HappyVillagerParticle
+5 -> FlameParticle
+
+指定PlayerにParticleを与える
+
+パーティクルガイドは
+/pte
+のあとに何も書いていない時だけ表示、
+
+/pte <0,1,2,3,4,5>
+
+番号のところに０～５のどれか１つあれば
+指定された番号のParticleを与える
+
+名前はPlayer指定
+
+番号部分に０～５以外の数字があればガイドを表示する。
+
+データの保存をする
+particle.yml
+
+A: 1
+B: 4
+C: 2
+D: 3
+
+のように保存(データ保存時のアルファベットはプレイヤー名を代入)
+
+初期は０
+
+２～５のParticle位置は足元にする
+
+０は何もない。非表示とする
+
+１は現状のままにする

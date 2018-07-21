@@ -1,0 +1,13 @@
+name: Player_Particle
+main: Player_Particle\main
+version: 1.0.0
+api:
+  - 3.0.0
+  - 4.0.3
+author: まっちだよ～(｡･ω･｡)
+
+commands:
+  pte:
+    description: PlayerにParticleを付与します。
+    usege: /pte 
+    permission: op

@@ -1,0 +1,32 @@
+---
+LoginSystem
+
+"Call to undefined method pocketmine\Server::getScheduler()" (EXCEPTION) in "plugins/LoginSystem/src/LoginSystem/LoginSystem" at line 109
+
+---
+NoName
+
+実行しても表示非表示をすることができない。(エラーなし)
+
+---
+TagShop
+
+購入時
+"Undefined index: MACHI000" (EXCEPTION) in "plugins/TagShop/src/hototya/shop/TagShop" at line 136
+
+称号の表示について
+setNameは正常動作で表示されている
+setDisplayNameは、表示されていない。
+
+---
+WarningPlugin
+警告を付与・解除動作は正常。
+警告を付与したときに、称号部分に警告を表示してしまう。（称号->警告マーク）上書きされてしまう
+
+---
+Particle
+
+予定.txt
+を確認してください。
+
+---
