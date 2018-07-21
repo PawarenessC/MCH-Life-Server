@@ -74,7 +74,7 @@ class warn extends PluginBase{
 		}
 		$player = $this->getServer()->getPlayer($target);
 		if (!($player === null)){
-			$player->setNameTag($color . $player->getNameTag(););
+			$player->setNameTag($color . $player->getNameTag());
 		}
 		$this->getServer()->broadcastMessage($message);
 		$player->setDisplayName($color . $player->getDisplayName());
