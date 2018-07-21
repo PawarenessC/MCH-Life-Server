@@ -1,0 +1,65 @@
+---
+name: LoginSystem
+main: LoginSystem\LoginSystem
+version: 6.0.1
+api:
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA11
+- 3.0.0-ALPHA12
+load: POSTWORLD
+author: MACHI000
+description: this is the LoginSystem
+commands:
+  lsystem:
+    usage: ~
+    description: LoginSystemのコマンド
+    permission: lsystem.command
+  register:
+    usage: ~
+    description: アカウント登録
+  login:
+    usage: ~
+    description: ログイン認証
+  unregister:
+    usage: ~
+    description: アカウント削除
+  cban:
+    usage: ~
+    description: ClientBanの実行
+    permission: cban.command
+  cpardon:
+    usage: ~
+    description: ClientBanの解除
+    permission: cpardon.command
+  icban:
+    usage: ~
+    description: IP&ClientBanの実行
+    permission: icban.command
+permissions:
+  lsystem:
+    default: op
+    description: Allows using all the LoginSystem things
+  lsystem.command:
+    default: op
+    description: Allows using all the LoginSystem commands
+  cban:
+    default: op
+    description: Allows using all the LoginSystem things
+  cban.command:
+    default: op
+    description: Allows using all the LoginSystem commands
+  cpardon:
+    default: op
+    description: Allows using all the LoginSystem things
+  cpardon.command:
+    default: op
+    description: Allows using all the LoginSystem commands
+  icban:
+    default: op
+    description: Allows using all the LoginSystem things
+  icban.command:
+    default: op
+    description: Allows using all the LoginSystem commands
+...

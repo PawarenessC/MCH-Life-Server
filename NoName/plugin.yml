@@ -1,0 +1,16 @@
+---
+name: NoPlayerName
+main: machi\main
+version: 1.0.0
+api:
+- 3.0.0
+- 3.0.0-ALPHA12
+- 4.0.3
+author: まっちだよ～(｡･ω･｡)
+
+commands:
+  noname:
+    description: プレイヤーの名前を消します。
+    usege: /noname
+    permission: op
+...
