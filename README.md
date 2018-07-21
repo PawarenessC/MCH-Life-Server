@@ -1,2 +1,2 @@
 # MCH-Life-Server
-~MCH Life Server~ Plugins
+MCH Life Server Plugins
