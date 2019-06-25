@@ -106,7 +106,7 @@ class LoginSystem extends PluginBase implements Listener {
                     ]
                 ]
             ];
-            Server::getInstance()->getScheduler()->scheduleDelayedTask(new Callback([$this,"createWindow"],[$player,$data,5]),20);
+            $this->getScheduler()->scheduleDelayedTask(new Callback([$this,"createWindow"],[$player,$data,5]),20);
         } else {
             if ($r["ip"] == $ip && $r["cid"] == $cid) {
                 $player->sendMessage("§l§e[運営] §aログイン認証がされました");
